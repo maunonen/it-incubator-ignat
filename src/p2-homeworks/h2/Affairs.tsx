@@ -2,6 +2,7 @@ import React, {Dispatch, SetStateAction} from 'react'
 import Affair from './Affair'
 import {AffairType, FilterType} from './HW2'
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
+import s from "./Affairs.module.css"
 
 type AffairsPropsType = { // need to fix any
     data: Array<AffairType>
@@ -24,7 +25,7 @@ function Affairs(props: AffairsPropsType) {
     const setLow = () => {props.setFilter('low')}
 
     return (
-        <div>
+        <div className={s.affairs}>
 
             {mappedAffairs}
             <SuperButton onClick={setAll}>All</SuperButton>

@@ -1,0 +1,29 @@
+.affair {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+.affair:hover {
+    background-color: grey;
+}
+.name {
+    flex: 1;
+    margin-left: 10px;
+}
+.priority {
+    flex: 1;
+}
+.actions {
+    flex: 1;
+    text-align: center;
+}
+.high{
+    background-color: lightcoral;
+}
+.middle {
+    background-color: lightsalmon;
+}
+.low {
+    background-color: darkseagreen;
+}

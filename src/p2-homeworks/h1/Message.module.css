@@ -2,7 +2,7 @@
 
     display: grid;
     grid-gap: 10px;
-    background-color: #2196F3;
+    background-color: #7892c2;
     padding: 10px;
     grid-template-columns: 100px fit-content(400px);
     align-items: end;
@@ -20,7 +20,7 @@
 }
 
 .messageBox {
-    background-color: black;
+    background-color: #585858;
     border-radius: 10px 10px 10px 0px;
     display: grid;
     grid-template-columns: auto 2fr;
@@ -33,11 +33,11 @@
     position: absolute;
     bottom: 0px;
     left: -20px;
-    color: black;
-    border-top: 20px solid black;
-    border-left: 20px solid black;
+    color: #585858;
+    border-top: 20px solid #585858;
+    border-left: 20px solid #585858;
     /*border-top-left-radius: 20px;*/
-    background:black;
+    background:#585858;
     /*border-radius:100px;*/
 }
 .messageBox:after {
@@ -45,12 +45,12 @@
     position: absolute;
     bottom: 0px;
     left: -20px;
-    color: black;
-    border-top: 40px solid #2196F3;
-    border-left: 20px solid #2196F3;
+    color: #585858;
+    border-top: 40px solid #7892c2;
+    border-left: 20px solid #7892c2;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    background:black;
+    background:#585858;
 }
 
 .messageContent{
@@ -64,7 +64,8 @@
 }
 .messageText {
     padding: 10px;
-    color: #d68d27;
+    /*color: #d68d27;*/
+    color: lightgray;
 }
 
 .messageTime {
