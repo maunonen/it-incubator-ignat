@@ -1,0 +1,29 @@
+.editableSpan {
+    background-color: lightcoral;
+}
+.editableSpan:before {
+    content: "\270E";
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.spanStyle {
+    border: 3px solid #373737;
+    border-radius: 7px;
+    margin: 10px 5px;
+    display: inline-block;
+    padding: 7px 10px;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.editableSpanBlock {
+    margin: 0px auto;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

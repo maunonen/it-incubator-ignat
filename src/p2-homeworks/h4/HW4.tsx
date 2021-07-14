@@ -24,7 +24,7 @@ function HW4() {
             <hr/>
             homeworks 4
 
-            <div className={s.column}>
+                     <div className={s.column}>
                 <SuperInputText
                     value={text}
                     onChangeText={setText}

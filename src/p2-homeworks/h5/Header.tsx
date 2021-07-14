@@ -19,7 +19,7 @@ function Header() {
                     >Junior</NavLink>
                     <NavLink
                         to={PATH.JUNIOR_PLUS}
-                        className={s.item }
+                        className={s.item}
                     >Junior Plus</NavLink>
                     <div className={s.item + ' ' + s.waffel}>menu</div>
                 </div>
