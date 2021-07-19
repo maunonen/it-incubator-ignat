@@ -1,0 +1,23 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clockBlock {
+    height: 100px;
+    min-height: 100px ;
+}
+.dateBlock {
+    /*height: 30px;*/
+}
+.hidden {
+    /*display: none;*/
+    visibility: hidden;
+    max-height: 0;
+}
+
+.shown {
+    visibility: visible;
+    /*display: block;*/
+}
