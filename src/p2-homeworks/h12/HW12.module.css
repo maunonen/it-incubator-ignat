@@ -6,6 +6,14 @@
     color: aliceblue;
 }
 
+.green {
+    background: #438f31
+}
+
+.green-text {
+    color: #535353
+}
+
 .red {
     background: lightcoral;
 }
@@ -20,4 +28,10 @@
 
 .some-text {
     color: darkslateblue;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
