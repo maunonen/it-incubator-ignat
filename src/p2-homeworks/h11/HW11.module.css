@@ -1,0 +1,16 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.doubleSliderBlock {
+    display: flex;
+}
+
+.doubleSliderLeftCaption {
+    margin-right: 10px;
+}
+.doubleSliderRightCaption {
+    margin-left: 10px;
+}
