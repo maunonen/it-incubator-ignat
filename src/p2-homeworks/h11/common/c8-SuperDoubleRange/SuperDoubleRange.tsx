@@ -27,14 +27,13 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
         step,
         min,
         max,
-        disabled,
-        ...restProps
+        disabled, ...restProps
     }
 ) => {
     const classes = useStyles()
 
     // сделать самому, можно подключать библиотеки
-    //const [sliderValue, setSliderValue] = useState<number[]>([min || 0, max || 100]);
+    const [sliderValue, setSliderValue] = useState<number[]>([min || 0, max || 100]);
     const handleChange = (event: any, newValue: number | number[]) => {
         //console.log('Handle change', newValue )
         if (newValue && Array.isArray(newValue) && newValue.length > 0) {
@@ -42,7 +41,7 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
             const rightValueInRange: number = newValue[1]
             onChangeRange && onChangeRange([leftValueInRange, rightValueInRange])
         }
-        //setSliderValue(newValue as number[]);
+        setSliderValue(newValue as number[]);
     };
 
     return (
